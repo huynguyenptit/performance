@@ -75,7 +75,7 @@ Nhưng liệu rằng chúng ta có cần lo lắng quá nhiều về việc cài
 
 ![screen-shot-2016-10-03-at-7-19-47-pm][10]
 
-Trong trường hợp này, tổng số lượng các trang "dirty" là rất cao, và trông có vẻ là InnoDB không thể duy tr. Nếu chúng ta có hệ thống ổ đĩa con nhanh (i.e., SSD), chúng ta có thể hưởng lợi từ việc tăng innodb_io_capacity và innodb_io_capacity_max.
+Trong trường hợp này, tổng số lượng các trang "dirty" là rất cao, và trông có vẻ là InnoDB không thể duy trì việc g. Nếu chúng ta có hệ thống ổ đĩa con nhanh (i.e., SSD), chúng ta có thể hưởng lợi từ việc tăng innodb_io_capacity và innodb_io_capacity_max.
 
 _**Kết luận hoặc TL;DR phiên bản**_
 
